@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E6E6FA"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Details"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#900"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <TableRow
+
+            android:layout_margin="5dp"
+            android:id="@+id/row1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="First Name"
+                android:textSize="20sp"
+                android:textColor="#900"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="First Name"
+                android:id="@+id/firstName"
+                android:textColor="#009"
+                android:layout_weight="1"/>
+
+        </TableRow>
+        <TableRow
+
+            android:layout_margin="5dp"
+            android:id="@+id/row5">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Email "
+                android:textSize="20sp"
+                android:textColor="#900"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:id="@+id/personemail"
+                android:textColor="#009"
+                android:layout_weight="1"/>
+
+        </TableRow>
+
+
+        <TableRow
+
+            android:layout_margin="5dp"
+            android:id="@+id/row2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Last Name"
+                android:textColor="#900"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Last Name"
+                android:id="@+id/lastName"
+                android:textColor="#009"
+                android:layout_weight="1"/>
+
+        </TableRow>
+
+        <TableRow
+
+            android:layout_margin="5dp"
+            android:id="@+id/row3">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Phone Number"
+                android:textColor="#900"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Number"
+                android:id="@+id/phoneNumber"
+                android:textColor="#009"
+                android:layout_weight="1"/>
+
+        </TableRow>
+
+        <TableRow
+
+            android:layout_margin="5dp"
+            android:id="@+id/row4">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Address"
+                android:textColor="#900"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Address"
+                android:id="@+id/address"
+                android:textColor="#009"
+                android:layout_weight="1"/>
+
+        </TableRow>
+
+
+
+    </TableLayout>
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#fafae6"
+        android:id="@+id/add"
+        android:text="Add"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:id="@+id/phoneList"
+        android:background="#fafae6"
+        android:text="Detailed List"/>
+</LinearLayout>
